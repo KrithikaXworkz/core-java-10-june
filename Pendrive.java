@@ -1,15 +1,14 @@
 class Pendrive{
-        
-		static String brandName = "SanDisk" ;
-		static int price = 2099 ;
-		static String memoryStorageCapacity = "256 GB" ;
-		static String hardwareInterface = "USB 3.2 Gen 1" ;
-		static String specialFeature = "Dual USB Connector" ;
-		static String readSpeed = "400 Megabytes Per Second" ;
-		
+
     public static void main(String[] sanDisk){
 	
 	    System.out.println("Pendrive Started");
+		String brandName = "SanDisk" ;
+		int price = 2099 ;
+		String memoryStorageCapacity = "256 GB" ;
+		String hardwareInterface = "USB 3.2 Gen 1" ;
+		String specialFeature = "Dual USB Connector" ;
+		String readSpeed = "400 Megabytes Per Second" ;
 		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);

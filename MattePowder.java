@@ -1,20 +1,19 @@
 class MattePowder{
 
-        static String brandName = "Pond's" ;
-		static int price = 106 ;
-		static String itemForm = "Loose" ;
-		static String coverage = "Medium" ;
-		static String color = "BB Glow" ;
-		static String finishType = "Natural" ;
-		static String skinType = "All" ;
-		static String productBenifits = "Smoothing" ;
-		static String modelName = "av2022-POND'S-ponds natural glow face powder-fcde7ecb" ;
-		static int numberOfItems = 1 ;
-		static String skinTone = "All" ;
-		
     public static void main(String[] pondsNaturalGlow){
 	
 	    System.out.println("Powder Started");
+		String brandName = "Pond's" ;
+		int price = 106 ;
+		String itemForm = "Loose" ;
+		String coverage = "Medium" ;
+		String color = "BB Glow" ;
+		String finishType = "Natural" ;
+		String skinType = "All" ;
+		String productBenifits = "Smoothing" ;
+		String modelName = "av2022-POND'S-ponds natural glow face powder-fcde7ecb" ;
+		int numberOfItems = 1 ;
+		String skinTone = "All" ;
 		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);

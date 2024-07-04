@@ -1,15 +1,14 @@
 class Calculator{
-        
-		static String brandName = "Casio" ;
-		static int price = 440 ;
-		static String color = "Grey" ;
-		static String calculatorType = "Bussiness" ;
-		static String powerSource = "Solar Powered" ;
-		static String screenSize = "7 Inches" ;
-		
+
     public static void main(String[] casioMG){
 	
 	    System.out.println("Calsi Started");
+		String brandName = "Casio" ;
+		int price = 440 ;
+		String color = "Grey" ;
+		String calculatorType = "Bussiness" ;
+		String powerSource = "Solar Powered" ;
+		String screenSize = "7 Inches" ;
 		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);

@@ -1,15 +1,14 @@
 class Keyboard{
 
-        static String brandName = "HP" ;
-		static int price = 629 ;
-		static String  compatibleDevices= "Laptop" ;
-		static String connectivityTechnology = "Wired" ;
-		static String keyboardDescription = "Wired" ;
-		static String recommenedUsesForProduct = "Office" ;
-		
     public static void main(String[] hP){
 	
 	    System.out.println("Keyboard Started");
+		String brandName = "HP" ;
+		int price = 629 ;
+		String  compatibleDevices= "Laptop" ;
+		String connectivityTechnology = "Wired" ;
+		String keyboardDescription = "Wired" ;
+		String recommenedUsesForProduct = "Office" ;
 		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);

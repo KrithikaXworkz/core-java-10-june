@@ -1,19 +1,18 @@
 class SleepingPillow{
 
-        static String brandName = "Wakefit" ;
-		static int price = 829 ;
-		static String size = "Pack of 2" ;
-		static String shape = "Rectangle" ;
-		static String color = "White,Grey" ;
-		static String material = "Cotton" ;
-		static String pattern = "Geometric" ;
-		static String typeOfPillow = "Bedpillow" ;
-		static String specialFeature = "Medium Soft Feel, 200 GSM Micro Fibre" ;
-		
     public static void main(String[] hollowFiber){
 	
 	    System.out.println("Pillow Started");
-				
+		String brandName = "Wakefit" ;
+		int price = 829 ;
+		String size = "Pack of 2" ;
+		String shape = "Rectangle" ;
+		String color = "White,Grey" ;
+		String material = "Cotton" ;
+		String pattern = "Geometric" ;
+		String typeOfPillow = "Bedpillow" ;
+		String specialFeature = "Medium Soft Feel, 200 GSM Micro Fibre" ;
+		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);
 		System.out.println("The Size is " + size);

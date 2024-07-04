@@ -1,15 +1,14 @@
 class LeafyGreens{
 
-        static String brandName = "Fresh" ;
-		static int price = 34 ;
-		static String dietType = "Vegeterian" ;
-		static String itemForm = "Whole" ;
-		static String itemWeight = "250 Grams" ;
-		static int numberOfItems = 1 ;
-		
     public static void main(String[] amaranthus){
 	
 	    System.out.println("Greens Started");
+		String brandName = "Fresh" ;
+		int price = 34 ;
+		String dietType = "Vegeterian" ;
+		String itemForm = "Whole" ;
+		String itemWeight = "250 Grams" ;
+		int numberOfItems = 1 ;
 		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);

@@ -1,15 +1,14 @@
 class BluetoothSpeaker{
-        
-		static String brandName = "DND FuN" ;
-		static int price = 10601 ;
-		static String includedComponents = "Karaoke Two microphones included, microphone, battery" ;
-		static String powerSource = "Battery Powered" ;
-		static int speakerCount = 1 ;
-		static String connectorType = "USB, 3.5 mm Jack" ;
-		
+
     public static void main(String[] dndFun){
 	
 	    System.out.println("Speaker Started");
+		String brandName = "DND FuN" ;
+		int price = 10601 ;
+		String includedComponents = "Karaoke Two microphones included, microphone, battery" ;
+		String powerSource = "Battery Powered" ;
+		int speakerCount = 1 ;
+		String connectorType = "USB, 3.5 mm Jack" ;
 		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);

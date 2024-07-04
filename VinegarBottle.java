@@ -1,15 +1,14 @@
 class VinegarBottle{
-        
-		static String brandName = "D Dhananjay" ;
-		static int price = 99 ;
-		static String capacity = "1000 millimeters" ;
-		static String material = "Plastic" ;
-		static String color = "1000 ml Oval" ;
-		static String bottleType = "Standard Bottle" ;
-		
+
     public static void main(String[] dhananjay){
 	
 	    System.out.println("Bottle Started");
+		String brandName = "D Dhananjay" ;
+		int price = 99 ;
+		String capacity = "1000 millimeters" ;
+		String material = "Plastic" ;
+		String color = "1000 ml Oval" ;
+		String bottleType = "Standard Bottle" ;
 		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);

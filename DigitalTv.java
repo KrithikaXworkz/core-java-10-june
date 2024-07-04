@@ -1,15 +1,14 @@
 class DigitalTv{
-        
-		static String brandName = "Airtel Digital TV" ;
-		static int price = 1847 ;
-		static String compatibleDevices = "Television" ;
-		static String connectorType = "HDMI" ;
-		static String color = "Black" ;
-		static String itemDimensions = "12x6x3 Centimeters" ;
-		
+
     public static void main(String[] airtel){
 	
 	    System.out.println("TV Started");
+		String brandName = "Airtel Digital TV" ;
+		int price = 1847 ;
+		String compatibleDevices = "Television" ;
+		String connectorType = "HDMI" ;
+		String color = "Black" ;
+		String itemDimensions = "12x6x3 Centimeters" ;
 		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);

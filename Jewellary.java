@@ -1,16 +1,15 @@
 class Jewellary{
-        
-		static String claspType = "Lobster Clasp" ;
-		static int price = 860 ;
-		static String materialType = "Metal" ;
-		static String metalType = "Copper" ;
-		static String gemType = "Cubic Zirconia" ;
-		static String occasionType = "All Occasion" ;
-		static String countryOfOrigin = "India" ;
-		
+
     public static void main(String[] Necklace){
 	
 	    System.out.println("Jewellary Started");
+		String claspType = "Lobster Clasp" ;
+		int price = 860 ;
+		String materialType = "Metal" ;
+		String metalType = "Copper" ;
+		String gemType = "Cubic Zirconia" ;
+		String occasionType = "All Occasion" ;
+		String countryOfOrigin = "India" ;
 		
 		System.out.println("The Clasp Type is " + claspType);
 		System.out.println("The Price is " + price);

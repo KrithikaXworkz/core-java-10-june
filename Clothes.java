@@ -1,18 +1,17 @@
 class Clothes{
 
-        static String brandName = "Rangita Rayon" ;
-		static int price = 791 ;
-		static String sleeveType = "3/4 sleeve" ;
-		static String materialComposition = "100% Rayon" ;
-		static String length = "Calf Length" ;
-		static String neckStyle = "Round Neck" ;
-		static String pattern = "Printed" ;
-		static String style = "Flared" ;
-		static String countryOfOrigin = "India" ;
-		
     public static void main(String[] womenKurtas){
 	
 	    System.out.println("Dress Started");
+		String brandName = "Rangita Rayon" ;
+		int price = 791 ;
+		String sleeveType = "3/4 sleeve" ;
+		String materialComposition = "100% Rayon" ;
+		String length = "Calf Length" ;
+		String neckStyle = "Round Neck" ;
+		String pattern = "Printed" ;
+		String style = "Flared" ;
+		String countryOfOrigin = "India" ;
 		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);

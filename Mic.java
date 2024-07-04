@@ -1,16 +1,15 @@
 class Mic{
-        
-		static String brandName = "NESA" ;
-		static int price = 1099 ;
-		static String modelName = "MUD-59XLR" ;
-		static String recommendedUsesForProduct = "Singing, Karoke" ;
-		static String connectivityTechnology = "XLR" ;
-		static String connectorType = "XLR" ;
 
     public static void main(String[] nesa){
 	
 	    System.out.println("Mic Started");
-		
+		String brandName = "NESA" ;
+		int price = 1099 ;
+		String modelName = "MUD-59XLR" ;
+		String recommendedUsesForProduct = "Singing, Karoke" ;
+		String connectivityTechnology = "XLR" ;
+		String connectorType = "XLR" ;
+
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);
 		System.out.println("The Model Name is " + modelName);

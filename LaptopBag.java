@@ -1,13 +1,12 @@
 class LaptopBag{
 
-        static String brandName = "Fur Jadan" ;
-		static int price = 1149 ;
-		static String careInstructions = "Hand Wash Only" ;
-		static String countryOfOrigin = "India" ;
-		
     public static void main(String[] furJaden){
 	
 	    System.out.println("Bag Started");
+		String brandName = "Fur Jadan" ;
+		int price = 1149 ;
+		String careInstructions = "Hand Wash Only" ;
+		String countryOfOrigin = "India" ;
 		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);

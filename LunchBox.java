@@ -1,20 +1,19 @@
 class LunchBox{
-        
-		static String brandName = "SignoraWare" ;
-		static int price = 349 ;
-		static String capacity = "850 millimeters" ;
-		static String material = "Plastic" ;
-		static String color = "T Blue" ;
-		static String ageRange = "Adult" ;
-		static String specialFeature = "insulated, microwave_safe, freezer_safe, dishwasher_safe" ;
-		static String pattern = "Solid" ;
-		static String itemWeights = "380 grams" ;
-		static String productCareInstructions = "Hand Wash Only, Dishwasher Safe" ;
-		
+
     public static void main(String[] signoraWare){
 	
 	    System.out.println("main Started");
-				
+		String brandName = "SignoraWare" ;
+		int price = 349 ;
+		String capacity = "850 millimeters" ;
+		String material = "Plastic" ;
+		String color = "T Blue" ;
+		String ageRange = "Adult" ;
+		String specialFeature = "insulated, microwave_safe, freezer_safe, dishwasher_safe" ;
+		String pattern = "Solid" ;
+		String itemWeights = "380 grams" ;
+		String productCareInstructions = "Hand Wash Only, Dishwasher Safe" ;
+		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);
 		System.out.println("The Capacity is " + capacity);

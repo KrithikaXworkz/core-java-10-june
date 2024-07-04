@@ -1,15 +1,14 @@
 class LandlinePhone{
 
-        static String brandName = "Praxon" ;
-		static int price = 886 ;
-		static String material = "ABS plastic" ;
-		static String color = "Multi-Color" ;
-		static String telephoneType = "Corded" ;
-		static String numberOfBatteries = "1 9V batteries required." ;
-		
     public static void main(String[] telephoneRinger){
 	
 	    System.out.println("TelephoneRinger Started");
+		String brandName = "Praxon" ;
+		int price = 886 ;
+		String material = "ABS plastic" ;
+		String color = "Multi-Color" ;
+		String telephoneType = "Corded" ;
+		String numberOfBatteries = "1 9V batteries required." ;
 		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);

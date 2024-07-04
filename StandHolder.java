@@ -1,16 +1,14 @@
 class StandHolder{
 
-	static String brandName = "Tygot" ;
-	static int price = 349 ;
-	static String compatibleDevics = "Camcorder, Camera, Smartphone" ;
-	static String material = "Aluminium" ;
-	static String color = "Black" ;
-	static String specialFeatures = "Lightweight, Includes Cover" ;
-		
-
     public static void main(String[] tygot){
 	
 	    System.out.println("Stand Holder Started");
+		String brandName = "Tygot" ;
+		int price = 349 ;
+		String compatibleDevics = "Camcorder, Camera, Smartphone" ;
+		String material = "Aluminium" ;
+		String color = "Black" ;
+		String specialFeatures = "Lightweight, Includes Cover" ;
 		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);

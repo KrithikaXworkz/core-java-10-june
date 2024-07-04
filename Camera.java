@@ -1,19 +1,20 @@
 class Camera{
 	
-     static String brandName = "DJI" ;
-	 static	int price = 31990 ;
-	 static	String flashMemoryType = "SDXC, SDHC" ;
-	 static	String color = "Black" ;
-	 static	String specialFeature = "WaterProof" ;
-	 static	String screenSize = "2.25 inches" ;
-	 static	String videoCaptureFormat = "MP4" ;
-	 static String maximumAperture = "2.8f" ;
-	 static	String maximumFocalLength = "24 millimeters" ;
-	 static	String videoCaptureresolution = "4k" ;
-	 static	String photoSensorTechnology = "CMOS" ;
+     
     public static void main(String[] osmoAction){
 	
 	    System.out.println("Camera Started");
+		String brandName = "DJI" ;
+	    int price = 31990 ;
+	    String flashMemoryType = "SDXC, SDHC" ;
+	    String color = "Black" ;
+	    String specialFeature = "WaterProof" ;
+	    String screenSize = "2.25 inches" ;
+	    String videoCaptureFormat = "MP4" ;
+	    String maximumAperture = "2.8f" ;
+	    String maximumFocalLength = "24 millimeters" ;
+	    String videoCaptureresolution = "4k" ;
+	    String photoSensorTechnology = "CMOS" ;
 		
 		
 		System.out.println("The Brand Name is " + brandName);

@@ -1,16 +1,15 @@
 class CrocsShoes{
 
-        static String brandName = "Crocs" ;
-		static int price = 2389 ;
-		static String typeOfClosure = "Hook and Loop" ;
-		static String material = "Synthetic" ;
-		static String typeOfHeel = "No Heel" ;
-		static String waterResistanceLevel = "Water Resistant" ;
-		static String style = "Clogs" ;
-		
     public static void main(String[] crocsSex){
 	
 	    System.out.println("Crocs Started");
+		String brandName = "Crocs" ;
+		int price = 2389 ;
+		String typeOfClosure = "Hook and Loop" ;
+		String material = "Synthetic" ;
+		String typeOfHeel = "No Heel" ;
+		String waterResistanceLevel = "Water Resistant" ;
+		String style = "Clogs" ;
 		
 		System.out.println("The Brand Name is " + brandName);
 		System.out.println("The Price is " + price);
