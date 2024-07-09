@@ -2,26 +2,16 @@ class VacuumCleaner{
 
     static boolean isConnected = false ;
 	
-	public static void turnOn(){
+	public static boolean onOrOff(){
 	
-	    System.out.println("start of turnOn");
+	    System.out.println("start of onOrOff");
 		if(isConnected == false){
 		    isConnected = true ;
-			System.out.println("The Vacuum Cleaner is Turned on...");
-		}
-		System.out.println("end of turnOn");
-		return;
-	}
-	
-	public static void turnOff(){
-	
-	    System.out.println("start of turnOff");
-		if(isConnected == true){
+		}else if(isConnected == true){
 		    isConnected = false ;
-			System.out.println("The Vacuum Cleaner is Turned off...");
 		}
-		System.out.println("end of turnOff");
-		return;
-		
+		System.out.println("end of onOrOff");
+		return isConnected;
 	}
+	
 }

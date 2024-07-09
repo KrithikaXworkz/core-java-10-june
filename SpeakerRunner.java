@@ -3,8 +3,14 @@ class SpeakerRunner{
     public static void main(String[] jBL){
 	
 	    System.out.println("Main Started");
-		Speaker.turnOn();
-		Speaker.turnOff();
+		        //invoking a method
+		boolean connect = Speaker.onOrOff();
+		    System.out.println("is Speaker Conneted :" + connect);
+			    connect = Speaker.onOrOff();
+			System.out.println("is Speaker Connected :" + connect);
+		//boolean	  connected = Speaker.onOrOff();
+			//System.out.println("is Speaker Connected :" + connect);
+			
 		System.out.println("Main Ended");
 	
 	}

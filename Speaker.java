@@ -2,18 +2,24 @@ class Speaker{
      
 	static boolean isConnected = false ;
 
-        public static void turnOn(){
+       //method declaration
+        public static boolean onOrOff(){
 			 
-			System.out.println("start of turnOn");
+			System.out.println("start of onOrOff");
 		
 		    if(isConnected == false){
 				isConnected = true ;
-				System.out.println("The Speaker is Turned onn...");
+			}else if(isConnected == true){
+				isConnected = false ;
 			}
-			    System.out.println("end of turnOn");
-	    return;
+			
+			System.out.println("end of onOrOff");
+	    return isConnected;
 	    }
-	    public static void turnOff(){
+		
+}
+	    
+		/*public static void turnOff(){
 			
 			System.out.println("start of turnOff");
 			
@@ -23,5 +29,4 @@ class Speaker{
 			}
 			    System.out.println("end of turnOff");
 		return;
-		}
-}
+		}*/

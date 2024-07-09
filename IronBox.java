@@ -2,29 +2,17 @@ class IronBox{
 
     static boolean isConnected = false ;
 	
-	public static void switchOn(){
+	public static boolean onOrOff(){
 	
-	    System.out.println("start of switchOn");
+	    System.out.println("start of onOrOff");
 		
 		    if(isConnected == false){
 			    isConnected = true ;
-				System.out.println("The IronBox is Switched on...");
+			}else if(isConnected == true){
+			    isConnected = false ;
 			}
 		System.out.println("end of switchOn");
-		return;
-		
-	}
-	
-	public static void switchOff(){
-	
-	    System.out.println("start of switchOff");
-		
-		    if(isConnected == true){
-			    isConnected = false ;
-				System.out.println("The IronBox is Switched off...");
-			}
-		System.out.println("end of switchOff");
-		return;
+		return isConnected;
 		
 	}
 	
