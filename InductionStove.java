@@ -1,25 +1,27 @@
 class InductionStove{
        
 	static boolean isConnected = false ;
-	static int maxTemp = 6 ;
-	static int currentTemp ;
-	static int minTemp ;
+	//static int maxTemp = 6 ;
+	//static int currentTemp ;
+	//static int minTemp ;
 		
         public static boolean onOrOff(){
 			
 			System.out.println("start of onOrOff");
 				
-				if(isConnected == false){
+				isConnected = (isConnected == true) ? false : true ;
+				/*if(isConnected == false){
 				    isConnected = true ;
 			    }else if(isConnected == true){
 					    isConnected = false ;
-				}
+				}*/
+				
 				System.out.println("end of onOrOff");
 				return isConnected;
 	        }
 			
-			
-		public static void increaseTemp(){
+			//nested-if condition
+		/*public static void increaseTemp(){
 			
 			System.out.println("start of increaseTemp");
 			    if(isConnected == true){
@@ -33,7 +35,8 @@ class InductionStove{
 			System.out.println("end of increaseTemp");
 			return;
 		}
-
+         
+		 //nested-if Condition
         public static void decreaseTemp(){
 		
 		System.out.println("Start of decreaseTemp");
@@ -45,6 +48,6 @@ class InductionStove{
 			}else System.out.println("Turn on the InductionStove ");
 		System.out.println("End of decreaseTemp method");
 	return;
-		}		
+		}*/		
 }
 

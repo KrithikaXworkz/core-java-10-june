@@ -1,21 +1,25 @@
 class MicroWaveOvens{
 
 	static boolean isDisplayOn = false ;
-	static int maxTemp = 5;
-	static int minTemp = 0;
-	static int currentTemp;
+	//static int maxTemp = 5;
+	//static int minTemp = 0;
+	//static int currentTemp;
 	
 	public static boolean onOrOff(){
 		
 		System.out.println("Start of onOrOff method");
 		
-		if(!isDisplayOn)	isDisplayOn = true;
-		else	isDisplayOn = false;
+		isDisplayOn = (isDisplayOn == true) ? false : true ;
+		
+		/*if(!isDisplayOn)	isDisplayOn = true;
+		else	isDisplayOn = false;*/
 		
 		System.out.println("End of onOrOff method");
 	return isDisplayOn;
 	}
-	public static void increaseTemp(){
+	
+	   //nested-if Condition
+	/*public static void increaseTemp(){
 		System.out.println("Start of increase Temp method");
 	
 			if(isDisplayOn = true){
@@ -28,6 +32,8 @@ class MicroWaveOvens{
 		System.out.println("End of increase Temp method");
 	return;
 	}
+	
+	     //nested-if Condition
 	public static void decreaseTemp(){
 		System.out.println("Start of decrease Temp method");
 			if(isDisplayOn = true){
@@ -38,5 +44,5 @@ class MicroWaveOvens{
 			}else System.out.println("Turn on the Oven ");
 		System.out.println("End of decrease Temp method");
 	return;
-	}
+	}*/
 }

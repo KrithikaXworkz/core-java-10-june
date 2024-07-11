@@ -6,7 +6,7 @@ class FridgeRunner{
 		boolean connect = Fridge.onOrOff();
 		    System.out.println("is Fridge Connected  :"+ connect);
 			
-			Fridge.increaseTemp();
+			/*Fridge.increaseTemp();
 			Fridge.increaseTemp();
 			Fridge.increaseTemp();
 			Fridge.increaseTemp();
@@ -16,7 +16,7 @@ class FridgeRunner{
 			Fridge.decreaseTemp();
 			Fridge.decreaseTemp();
 			Fridge.decreaseTemp();
-			Fridge.decreaseTemp();
+			Fridge.decreaseTemp();*/
 			
 		        connect = Fridge.onOrOff();
 			System.out.println("is Fridge Connected :" + connect);

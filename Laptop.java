@@ -1,21 +1,25 @@
 class Laptop{
 
 	static boolean isDisplayOn = false ;
-	static int maxZoom = 5;
-	static int minZoom = 0;
-	static int currentZoom;
+	//static int maxZoom = 5;
+	//static int minZoom = 0;
+	//static int currentZoom;
 	
 	public static boolean onOrOff(){
 		
 		System.out.println("Start of onOrOff method");
 		
-		if(!isDisplayOn)	isDisplayOn = true;
-		else	isDisplayOn = false;
+		isDisplayOn = (isDisplayOn == true) ? false : true ;
+		
+		/*if(!isDisplayOn)	isDisplayOn = true;
+		else	isDisplayOn = false;*/
 		
 		System.out.println("End of onOrOff method");
 	return isDisplayOn;
 	}
-	public static void increaseZoom(){
+	
+	   //nested-if Condition
+	/*public static void increaseZoom(){
 		System.out.println("Start of increase Zoom method");
 	
 			if(isDisplayOn == true){
@@ -27,6 +31,8 @@ class Laptop{
              System.out.println("End of increase zoom method");
 	return;
 	}
+	
+	   //nested-if Condition
 	public static void decreaseZoom(){
 		System.out.println("Start of decrease Zoom method");
 			if(isDisplayOn == true){
@@ -37,5 +43,5 @@ class Laptop{
 			}else System.out.println("Turn on the Laptop ");
 		System.out.println("End of decrease zoom method");
 	return;
-	}
+	}*/
 }

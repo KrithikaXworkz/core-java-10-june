@@ -6,7 +6,7 @@ class HairStraightenerRunner{
 	boolean connect = HairStraightener.onOrOff();
 	System.out.println("is Hair Straightener Connected :" + connect);
 	
-	HairStraightener.increaseTemp();
+	/*HairStraightener.increaseTemp();
 	HairStraightener.increaseTemp();
 	HairStraightener.increaseTemp();
 	HairStraightener.increaseTemp();
@@ -16,7 +16,7 @@ class HairStraightenerRunner{
 	
 	HairStraightener.decreaseTemp();
 	HairStraightener.decreaseTemp();
-	HairStraightener.decreaseTemp();
+	HairStraightener.decreaseTemp();*/
 	
 	boolean connected = HairStraightener.onOrOff();
 	System.out.println("is Hair Straightener Connected :" + connected);

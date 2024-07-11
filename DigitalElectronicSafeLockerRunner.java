@@ -6,7 +6,7 @@ class DigitalElectronicSafeLockerRunner{
 		boolean connected = DigitalElectronicSafeLocker.onOrOff();
 		System.out.println("is Digital Electronic Safe Locker Connected :" + connected);
 		
-		DigitalElectronicSafeLocker.increaseSpeed();
+		/*DigitalElectronicSafeLocker.increaseSpeed();
 		DigitalElectronicSafeLocker.increaseSpeed();
 		DigitalElectronicSafeLocker.increaseSpeed();
 		DigitalElectronicSafeLocker.increaseSpeed();
@@ -21,7 +21,7 @@ class DigitalElectronicSafeLockerRunner{
 		DigitalElectronicSafeLocker.decreaseSpeed();
 		DigitalElectronicSafeLocker.decreaseSpeed();
 		DigitalElectronicSafeLocker.decreaseSpeed();
-		DigitalElectronicSafeLocker.decreaseSpeed();
+		DigitalElectronicSafeLocker.decreaseSpeed();*/
 		
 		
 		boolean connect = DigitalElectronicSafeLocker.onOrOff();

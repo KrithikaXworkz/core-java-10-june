@@ -3,7 +3,7 @@ class MicroWaveOvensRunner{
 	System.out.println("main method started");
 	boolean display = MicroWaveOvens.onOrOff();
 	System.out.println("the oven is displayed:" + display);
-	MicroWaveOvens.increaseTemp();
+	/*MicroWaveOvens.increaseTemp();
 	MicroWaveOvens.increaseTemp();
 	MicroWaveOvens.increaseTemp();
     MicroWaveOvens.increaseTemp();
@@ -16,7 +16,7 @@ class MicroWaveOvensRunner{
 	MicroWaveOvens.decreaseTemp();
 	MicroWaveOvens.decreaseTemp();
 	MicroWaveOvens.decreaseTemp();
-	MicroWaveOvens.decreaseTemp();
+	MicroWaveOvens.decreaseTemp();*/
 	display = MicroWaveOvens.onOrOff();
 	System.out.println("the oven is displayed:" + display);
 	

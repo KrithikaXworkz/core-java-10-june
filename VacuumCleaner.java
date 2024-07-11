@@ -1,23 +1,28 @@
 class VacuumCleaner{
 
     static boolean isConnected = false ;
-	static int maxTemp = 7 ;
-	static int currentTemp ;
-	static int minTemp = -1 ;
+	//static int maxTemp = 7 ;
+	//static int currentTemp ;
+	//static int minTemp = -1 ;
 	
 	public static boolean onOrOff(){
 	
 	    System.out.println("start of onOrOff");
-		if(isConnected == false){
+		
+		isConnected = (isConnected == true) ? false : true ;
+		
+		/*if(isConnected == false){
 		    isConnected = true ;
 		}else if(isConnected == true){
 		    isConnected = false ;
-		}
+		}*/
+		
+		
 		System.out.println("end of onOrOff");
 		return isConnected;
 	}
-	
-	public static void increaseTemp(){
+	    //nested-if Condition
+	/*public static void increaseTemp(){
 		
 		System.out.println("increaseTemp method started");
 		if(isConnected == true){
@@ -29,7 +34,7 @@ class VacuumCleaner{
 		System.out.println("increaseTemp method ended");
 		return;
 	}
-	
+	  //nested-if Condition
 	public static void decreaseTemp(){
 		
 		System.out.println("decreaseTemp method started");
@@ -41,5 +46,5 @@ class VacuumCleaner{
 		}else System.out.println("Turn on the Vacuum Cleaner");
 		System.out.println("decreaseTemp method ended");
 		return;
-	}
+	}*/
 }

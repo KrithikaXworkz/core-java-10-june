@@ -6,7 +6,7 @@ class InductionStoveRunner{
 		boolean connect = InductionStove.onOrOff();
 		    System.out.println("is Induction Stove Connected :" + connect);
 			
-			InductionStove.increaseTemp();
+			/*InductionStove.increaseTemp();
 			InductionStove.increaseTemp();
 			InductionStove.increaseTemp();
 			InductionStove.increaseTemp();
@@ -20,7 +20,7 @@ class InductionStoveRunner{
 			InductionStove.decreaseTemp();
 			InductionStove.decreaseTemp();
 			InductionStove.decreaseTemp();
-			InductionStove.decreaseTemp();
+			InductionStove.decreaseTemp();*/
 			
 		     connect = InductionStove.onOrOff();
 		    System.out.println("is Induction Stove Connected :" + connect);

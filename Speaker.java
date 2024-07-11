@@ -1,9 +1,9 @@
 class Speaker{
      
 	static boolean isConnected = false ;
-	static int maxVolume = 7 ;
-	static int minVolume = 0 ;
-	static int currentVolume ;
+	//static int maxVolume = 7 ;
+	//static int minVolume = 0 ;
+	//static int currentVolume ;
 
        //method declaration
         public static boolean onOrOff(){
@@ -42,8 +42,9 @@ class Speaker{
 			System.out.println("end of onOrOff");
 	    return isConnected;
 	    }
-
-		public static void increaseVolume(){
+             
+			 //nested-if Condition
+		/*public static void increaseVolume(){
 			System.out.println("start of increaseVolume");
 			if(isConnected = true){
 				if(currentVolume < maxVolume){
@@ -56,7 +57,8 @@ class Speaker{
 			System.out.println("end of increaseVolume");
 			return;
 		}
-		
+		  
+		    //nested-if Condition
 		public static void decreaseVolume(){
 			System.out.println("start of decreaseVolume");
 			if(isConnected = true){
@@ -68,7 +70,7 @@ class Speaker{
 			}else
 				System.out.println("Turn on the Speaker");
 			return;
-		}
+		}*/
 }
 
 	

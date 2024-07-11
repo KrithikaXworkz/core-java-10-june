@@ -11,7 +11,7 @@ class SpeakerRunner{
 		//boolean	  connected = Speaker.onOrOff();
 			//System.out.println("is Speaker Connected :" + connect);
 		
-		Speaker.increaseVolume();
+		/*Speaker.increaseVolume();
 	    Speaker.increaseVolume();
 		Speaker.increaseVolume();
 	    Speaker.increaseVolume();
@@ -34,7 +34,8 @@ class SpeakerRunner{
 		System.out.println("The Speaker is Connected :" +connect);
 		System.out.println("Main Ended");
 	
-	}
+	}*/
+}
 }
 
 

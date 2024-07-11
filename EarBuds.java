@@ -1,24 +1,28 @@
 class EarBuds{
 
     static boolean isConnected = false ;
-	static int maxVolume = 5 ;
-	static int currentVolume ;
-	static int minVolume = 0 ;
+	//static int maxVolume = 5 ;
+	//static int currentVolume ;
+	//static int minVolume = 0 ;
 		
 	    public static boolean onOrOff(){
            	System.out.println("start of onOrOff");
          
-			if(isConnected == false){
+			isConnected = (isConnected == true) ? false : true ;
+			
+			/*if(isConnected == false){
 			    isConnected = true ;
 			}else if(isConnected == true){
 			    isConnected = false ;
-			}
+			}*/
+			
 			System.out.println("end of onOrOff");
 			return isConnected;
 			
 		}
+}
             //nested-if condition
-        public static void increaseVolume(){
+        /*public static void increaseVolume(){
 			System.out.println("increasevolume method started");
 			if(isConnected == true){
 				if(currentVolume < maxVolume){
@@ -31,7 +35,7 @@ class EarBuds{
 			System.out.println("increaseVolume method ended");
 			return;
 		}	
-
+           //nested-if condition
         public static void decreaseVolume(){
 		
 		System.out.println("Start of decreaseVolume");
@@ -46,4 +50,4 @@ class EarBuds{
 		}		
 		
 		
-}
+}*/

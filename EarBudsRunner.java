@@ -7,7 +7,7 @@ class EarBudsRunner{
 		    System.out.println("is Ear Buds Connected :" + connect);
 		        
 			
-			EarBuds.increaseVolume();
+			/*EarBuds.increaseVolume();
 			EarBuds.increaseVolume();
 			EarBuds.increaseVolume();
 			EarBuds.increaseVolume();
@@ -17,7 +17,7 @@ class EarBudsRunner{
 			
 			EarBuds.decreaseVolume();
 			EarBuds.decreaseVolume();
-			EarBuds.decreaseVolume();
+			EarBuds.decreaseVolume();*/
 	
 			
 			connect = EarBuds.onOrOff();

@@ -1,23 +1,29 @@
 class HairStraightener{
     
 	static boolean isConnected = false ;
-	static int maxTemp = 6 ;
-	static int currentTemp ;
-	static int minTemp  ;
+	//static int maxTemp = 6 ;
+	//static int currentTemp ;
+	//static int minTemp  ;
 	
         public static boolean onOrOff(){
 		
 		    System.out.println("start of onOrOff");
-			if(isConnected == false){
+			
+			isConnected = (isConnected == true) ? false : true ;
+			
+			/*if(isConnected == false){
 			    isConnected = true ;
 			}else if(isConnected == true){
 			    isConnected = false ;
-			}
+			}*/
+			
 			System.out.println("end of onOrOff");
 			return isConnected;
 			
 	    }
-	    public static void increaseTemp(){
+		
+		   //nested-if Condition
+	    /*public static void increaseTemp(){
 		System.out.println("Start of increaseTemp method");
 	
 			if(isConnected = true){
@@ -30,6 +36,8 @@ class HairStraightener{
 		System.out.println("End of increase Temp method");
 	return;
 	}
+	
+	   //nested-if Condition
 	public static void decreaseTemp(){
 		System.out.println("Start of decrease Temp method");
 			if(isConnected = true){
@@ -40,6 +48,6 @@ class HairStraightener{
 			}else System.out.println("Turn on the Hair Straightener ");
 		System.out.println("End of decrease Temp method");
 	return;
-	}
+	}*/
 }
 
