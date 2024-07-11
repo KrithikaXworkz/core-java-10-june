@@ -10,9 +10,51 @@ class SpeakerRunner{
 			System.out.println("is Speaker Connected :" + connect);
 		//boolean	  connected = Speaker.onOrOff();
 			//System.out.println("is Speaker Connected :" + connect);
-			
+		
+		Speaker.increaseVolume();
+	    Speaker.increaseVolume();
+		Speaker.increaseVolume();
+	    Speaker.increaseVolume();
+		Speaker.increaseVolume();
+		Speaker.increaseVolume();
+		Speaker.increaseVolume();
+		Speaker.increaseVolume();
+	    Speaker.increaseVolume();
+		
+		Speaker.decreaseVolume();
+		Speaker.decreaseVolume();
+		Speaker.decreaseVolume();
+		Speaker.decreaseVolume();
+	    Speaker.decreaseVolume();
+		Speaker.decreaseVolume();
+	    Speaker.decreaseVolume();
+		Speaker.decreaseVolume();
+	
+		connect = Speaker.onOrOff();
+		System.out.println("The Speaker is Connected :" +connect);
 		System.out.println("Main Ended");
 	
 	}
-	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

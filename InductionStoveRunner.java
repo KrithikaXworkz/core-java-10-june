@@ -5,8 +5,25 @@ class InductionStoveRunner{
 	    System.out.println("Main Started");
 		boolean connect = InductionStove.onOrOff();
 		    System.out.println("is Induction Stove Connected :" + connect);
-		boolean connected = InductionStove.onOrOff();
-		    System.out.println("is Induction Stove Connected :" + connected);
+			
+			InductionStove.increaseTemp();
+			InductionStove.increaseTemp();
+			InductionStove.increaseTemp();
+			InductionStove.increaseTemp();
+			InductionStove.increaseTemp();
+			InductionStove.increaseTemp();
+			InductionStove.increaseTemp();
+			
+			InductionStove.decreaseTemp();
+			InductionStove.decreaseTemp();
+			InductionStove.decreaseTemp();
+			InductionStove.decreaseTemp();
+			InductionStove.decreaseTemp();
+			InductionStove.decreaseTemp();
+			InductionStove.decreaseTemp();
+			
+		     connect = InductionStove.onOrOff();
+		    System.out.println("is Induction Stove Connected :" + connect);
 		System.out.println("Main Ended");
 		
 	}
