@@ -4,62 +4,20 @@ class InsurancePackage{
 	         
 			double insurancePrice = 0.0 ;
 
-		if(insuranceName == "HDFC Life Insurance"){
-		      insurancePrice = 8000.70 ;
-			  return insurancePrice ;
-		}
-		if(insuranceName == "Max Life"){
-			   insurancePrice = 9000.09 ;
-			   return insurancePrice ;
-		}
-		if(insuranceName == "SBI Life Insurance"){
-			   insurancePrice = 5000.80 ;
-			   return insurancePrice ;
-		}
-		if(insuranceName == "Kotak Life Insurance"){
-			    insurancePrice = 11000.90 ;
-				return insurancePrice ;
-		}
-		if(insuranceName == "Star Union"){
-			   insurancePrice = 25000.65 ;
-			   return insurancePrice ;
-		}
-		if(insuranceName == "IDBI Federal"){
-			   insurancePrice = 15000.60 ;
-			   return insurancePrice ;
-		}
-		if(insuranceName == "Met Life Insurance"){
-			   insurancePrice = 11000.90 ;
-			   return insurancePrice ;
-		}
-		if(insuranceName == "Exide Life Insurance"){
-			   insurancePrice = 22000.9 ;
-			   return insurancePrice ;
-		}
-		if(insuranceName == "Bharathi Axa"){
-			   insurancePrice = 12000.65 ;
-			   return insurancePrice ;
-		}
-		if(insuranceName == "Birla Sunlife"){
-		      insurancePrice = 5000.87 ;
-			  return insurancePrice ;
-		}
-		if(insuranceName == "Shriram Life"){
-			   insurancePrice = 8000.99 ;
-			   return insurancePrice ;
-		}
-		if(insuranceName == "India First"){
-			   insurancePrice = 7000.99;
-			   return insurancePrice ;
-		}
-		if(insuranceName == "ICICI Life Insurance"){
-			    insurancePrice = 6500.90 ;
-				return insurancePrice ;
-		}
-		if(insuranceName == "Tata Life Insurance"){
-			    insurancePrice = 7000.09 ;
-				return insurancePrice ;
-		}
+		if(insuranceName == "HDFC Life Insurance") return insurancePrice = 8000.70 ;
+		if(insuranceName == "Max Life") return insurancePrice = 9000.09;
+		if(insuranceName == "SBI Life Insurance") return insurancePrice =  5000.80 ;
+		if(insuranceName == "Kotak Life Insurance") return insurancePrice = 11000.90;
+		if(insuranceName == "Star Union") return insurancePrice = 25000.65 ;
+		if(insuranceName == "IDBI Federal") return  insurancePrice = 15000.60 ;
+		if(insuranceName == "Met Life Insurance") return insurancePrice = 11000.90 ;
+		if(insuranceName == "Exide Life Insurance") return insurancePrice = 22000.9 ;
+		if(insuranceName == "Bharathi Axa") return insurancePrice = 12000.65 ;
+		if(insuranceName == "Birla Sunlife") return insurancePrice = 5000.87 ;
+		if(insuranceName == "Shriram Life") return insurancePrice = 8000.99 ;
+		if(insuranceName == "India First") return insurancePrice = 7000.99;
+	    if(insuranceName == "ICICI Life Insurance") return insurancePrice = 6500.90 ;
+	    if(insuranceName == "Tata Life Insurance")return insurancePrice = 7000.09 ;
 		else{
 	        System.out.println(insuranceName +" not found" );
 		}

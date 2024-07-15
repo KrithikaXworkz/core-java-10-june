@@ -3,90 +3,27 @@ class Dominos{
     public static int getFoodItem(String foodName){
 	
 	    int foodPrice = 0 ;
-		if(foodName == "Veg Pizza"){
-		    foodPrice = 399 ;
-			return foodPrice ;
-		}
-		if(foodName == "Burger"){
-		    foodPrice = 250;
-			return foodPrice ;
-		}
-		if(foodName == "Sandwitch"){
-		    foodPrice = 190 ;
-			return foodPrice ;
-		}
-		if(foodName == "French Fries"){
-		    foodPrice = 200 ;
-			return foodPrice ;
-		}
-		if(foodName == "Non-Veg Pizza"){
-		    foodPrice = 380 ;
-			return foodPrice ;
-		}
-		if(foodName == "Piza Mania "){
-		    foodPrice = 480 ;
-			return foodPrice ;
-		}
-		if(foodName == "Pasta"){
-		    foodPrice = 299 ;
-			return foodPrice ;
-		}
-		if(foodName == "Kadai Paneer"){
-		    foodPrice = 389 ;
-			return foodPrice ;
-		}
-		if(foodName == "Chicken Sausage"){
-		    foodPrice = 299 ;
-			return foodPrice ;
-		}
-		if(foodName == "Choco Lava Cake"){
-		    foodPrice = 110 ;
-			return foodPrice ;
-		}
-		if(foodName == "ButterScotch Mousy Cake"){
-		    foodPrice = 105 ;
-			return foodPrice ;
-		}
-		if(foodName == "Paneer Tikka Stuffed Garlic Bread"){
-		    foodPrice = 170 ;
-			return foodPrice ;
-		}
-		if(foodName == "Taco Mexicana Veg"){
-		    foodPrice = 145 ;
-			return foodPrice ;
-		}
-		if(foodName == "FriedRice"){
-		    foodPrice = 100 ;
-			return foodPrice ;
-		}
-		if(foodName == "Cheesy Dip"){
-		    foodPrice = 30 ;
-			return foodPrice ;
-		}
-		if(foodName == "Garlic Breadsticks"){
-		    foodPrice = 110 ;
-			return foodPrice ;
-		}
-		if(foodName == "Potato Cheese Shots"){
-		    foodPrice = 80 ;
-			return foodPrice ;
-		}
-		if(foodName == "Peri-Peri Chicken"){
-		    foodPrice = 305 ;
-			return foodPrice ;
-		}
-		if(foodName == "Chicken Kickers"){
-		    foodPrice = 320 ;
-			return foodPrice ;
-		}
-		if(foodName == "Potato Widgets"){
-		    foodPrice = 399;
-			return foodPrice ;
-		}
-		if(foodName == "Pan"){
-		    foodPrice = 150 ;
-			return foodPrice ;
-		}
+		if(foodName == "Veg Pizza") return foodPrice = 399 ;
+		if(foodName == "Burger") return foodPrice = 250;
+		if(foodName == "Sandwitch") return foodPrice = 190 ;
+		if(foodName == "French Fries") return foodPrice = 200 ;
+		if(foodName == "Non-Veg Pizza") return foodPrice = 380 ;
+		if(foodName == "Piza Mania ") return foodPrice = 480 ;
+		if(foodName == "Pasta") return foodPrice = 299 ;
+		if(foodName == "Kadai Paneer") return foodPrice = 389 ;
+		if(foodName == "Chicken Sausage") return foodPrice = 299 ;
+		if(foodName == "Choco Lava Cake") return foodPrice = 110 ;
+		if(foodName == "ButterScotch Mousy Cake") return foodPrice = 105 ;
+		if(foodName == "Paneer Tikka Stuffed Garlic Bread") return foodPrice = 170 ;
+		if(foodName == "Taco Mexicana Veg") return foodPrice = 145 ;
+		if(foodName == "FriedRice") return foodPrice = 100 ;
+		if(foodName == "Cheesy Dip") return foodPrice = 30 ;
+		if(foodName == "Garlic Breadsticks") return foodPrice = 110 ;
+		if(foodName == "Potato Cheese Shots") return foodPrice = 80 ;
+		if(foodName == "Peri-Peri Chicken") return foodPrice = 305 ;
+	    if(foodName == "Chicken Kickers") return foodPrice = 320 ;
+		if(foodName == "Potato Widgets") return foodPrice = 399;
+		if(foodName == "Pan") return foodPrice = 150 ;
 		else{
 		    System.out.println(foodName + " not found ");
 		}
