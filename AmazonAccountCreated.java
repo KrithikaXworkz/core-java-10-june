@@ -10,13 +10,57 @@ class AmazonAccountCreated{
     public static boolean createUserAccount(String firstName, String lastName, long mobileNumber, String email, String pwd, String confirmPwd){
 	
 	     boolean isAmazonAccountCreated = false ;
-		 givenName = firstName ;
-		 surName = lastName;
-		 phoneNumber = mobileNumber ;
-		 mailId = email ;
-		 password = pwd ;
-		 confirmPassword = confirmPwd ;
-		 isAmazonAccountCreated = true ;
+		 boolean isFirstNameValid = false ;
+		 boolean isLastNameValid = false ;
+		 boolean isMobileNumberValid = false ;
+		 boolean isEmailValid = false ;
+		 boolean isPwdValid = false ;
+		 boolean isConfirmPwdValid = false ;
+		 
+		 if(firstName != null){
+		    givenName = firstName ;
+            isFirstNameValid = true ;			
+		 }
+		 else
+			 System.out.println("First Name is Invalid");
+		 
+		 if(lastName != null){
+			surName = lastName;
+			isLastNameValid = true ; 
+		 }
+		 else
+			System.out.println("Last Name is Invalid");
+		 
+		if(mobileNumber != 0.0){
+			 phoneNumber = mobileNumber ;
+			 isMobileNumberValid = true ;
+		}
+		else
+			System.out.println("Mobile Number is Invaid");
+		
+		if(email != null){
+			 mailId = email ;
+			 isEmailValid = true ;
+		}
+		else
+			System.out.println("Email Invalid");
+		
+		if(pwd != null){
+			password = pwd ;
+			isPwdValid = true ;
+		}
+		else
+			System.out.println("Password Invalid");
+		
+		if(confirmPwd != null){
+			confirmPassword = confirmPwd ;
+			isConfirmPwdValid = true ;
+		}
+		else
+			System.out.println("Confirm Password Invalid");
+		 
+        if(isFirstNameValid == true && isLastNameValid == true && isMobileNumberValid == true && isEmailValid == true && isPwdValid == true && isConfirmPwdValid == true) 
+		isAmazonAccountCreated = true ;
 		 
 		 return isAmazonAccountCreated ;
 	
