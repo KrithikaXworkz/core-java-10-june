@@ -35,7 +35,15 @@ class TouristCompanyRunner{
 		touristPlaceAdded = TouristCompany.addTouristPlaceName("Sikkim");
 		System.out.println("Tourist places added " + touristPlaceAdded);
 		
+		TouristCompany.readTouristPlacesDetails();
 		
+		 boolean touristPlaceNameUpdated = TouristCompany .updateTouristPlaces("Shimla", "Varanasi");
+		System.out.println("Tourist Place Names added" + touristPlaceNameUpdated);
+		
+		TouristCompany.readTouristPlacesDetails();
+		
+		boolean touristPlaceNameDeleted = TouristCompany.deleteTouristPlaces("Ooty");
+		System.out.println("touristPlaceNameDeleted " + touristPlaceNameDeleted);
 		
 		TouristCompany.readTouristPlacesDetails();
 		

@@ -39,6 +39,17 @@ class MedicalStoreRunner{
 		
 		MedicalStore.readMedicineDetails();
 		
+		boolean medicineNameUpdated = MedicalStore.updateMedicineName("Dolo","Omeprazol");
+		System.out.println("medicineNameUpdated" + medicineNameUpdated);
+		
+		MedicalStore.readMedicineDetails();
+		
+		boolean medicineNameDeleted = MedicalStore.deleteMedicineName("Citalopram");
+		System.out.println("medicineNameDeleted" + medicineNameDeleted);
+		
+		
+		MedicalStore.readMedicineDetails();
+		
 		
 	
 	}

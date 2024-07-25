@@ -38,6 +38,28 @@ class MRPStoreRunner{
 		
 		MRPStore.readAlcoholDetails();
 		
+		boolean alcoholNamesUpdate = MRPStore.updatealcoholNames("OldMonk" , "Gin");
+		System.out.println("Alcohol Name is updated" + alcoholNamesUpdate);
+		
+		MRPStore.readAlcoholDetails();
+		
+		boolean alcoholNamesDelete = MRPStore.deletealcoholNames("Campari");
+		System.out.println("Alcohol Name is Deleted" +alcoholNamesDelete);
+		
+		MRPStore.readAlcoholDetails();
+		
+		/*boolean alcoholNameUpdated = MRPStore.updateAlcoholName("soda","Kingfisher");
+		System.out.println("alcoholNameUpdated" + alcoholNameUpdated);
+		
+		MRPStore.readAlcoholDetails();
+		
+		boolean alcoholNameDeleted = MRPStore.deleteAlcoholName("Whiskey");
+		System.out.println("alcoholNameDeleted" + alcoholNameDeleted);
+		
+		MRPStore.readAlcoholDetails();*/
+		
+		
+		
 		
 	
 	}
