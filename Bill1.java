@@ -1,5 +1,6 @@
-class Bill{
-   
+class Bill1{
+	
+   //Instance Methods/Variables
     int billReferenceId;
 	int billSequenceNo;
 	String billIssueDate;
