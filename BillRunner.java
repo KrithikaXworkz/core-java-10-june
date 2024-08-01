@@ -1,9 +1,9 @@
-class Bill1Runner{
+class BillRunner{
 
     public static void main(String reference[]){
 	
 	    //ClassName ref = new ClassName();
-		Bill1 ref = new Bill1();
+		/*Bill1 ref = new Bill1();
 		ref.billReferenceId = 5781;
 		ref.billSequenceNo = 1 ;
 		ref.billIssueDate = "14/07/2024";
@@ -149,7 +149,53 @@ class Bill1Runner{
 		System.out.println("Latest Bill is " + ref6.isLatestBill);
 		System.out.println("Final Bill is " + ref6.isFinalBill);
 		System.out.println("Bill Amount is " + ref6.billAmount);
-		System.out.println("Tax Inclusive the Bill is " + ref6.taxInclusiveBill);
+		System.out.println("Tax Inclusive the Bill is " + ref6.taxInclusiveBill);*/
+		
+		Bill ref = new Bill(5781, 1, "14/07/2024", "31/07/2024", false, true, false, 499.98, true);
+		System.out.println("Bill Reference Id is " + ref.billReferenceId);
+		System.out.println("Bill Sequence Number is " + ref.billSequenceNo);
+		System.out.println("Bill Issue Date is " + ref.billIssueDate);
+		System.out.println("Bill Due Date is " + ref.billDueDate);
+		System.out.println("Bill is Paid " + ref.isBillPaid);
+		System.out.println("Latest Bill is " + ref.isLatestBill);
+		System.out.println("Final Bill is " + ref.isFinalBill);
+		System.out.println("Bill Amount is " + ref.billAmount);
+		System.out.println("Tax Inclusive the Bill is " + ref.taxInclusiveBill);
+		
+		Bill ref1 = new Bill(66781, 2, "14/08/2024", "31/08/2024", false, true, false, 500.90, true);
+		System.out.println("Bill Reference Id is " + ref1.billReferenceId);
+		System.out.println("Bill Sequence Number is " + ref1.billSequenceNo);
+		System.out.println("Bill Issue Date is " + ref1.billIssueDate);
+		System.out.println("Bill Due Date is " + ref1.billDueDate);
+		System.out.println("Bill is Paid " + ref1.isBillPaid);
+		System.out.println("Latest Bill is " + ref1.isLatestBill);
+		System.out.println("Final Bill is " + ref1.isFinalBill);
+		System.out.println("Bill Amount is " + ref1.billAmount);
+		System.out.println("Tax Inclusive the Bill is " + ref1.taxInclusiveBill);
+		
+		Bill ref2 = new Bill(65332, 3, "14/09/2024", "30/09/2024", false, true, false, 600.99, true);
+		System.out.println("Bill Reference Id is " + ref2.billReferenceId);
+		System.out.println("Bill Sequence Number is " + ref2.billSequenceNo);
+		System.out.println("Bill Issue Date is " + ref2.billIssueDate);
+		System.out.println("Bill Due Date is " + ref2.billDueDate);
+		System.out.println("Bill is Paid " + ref2.isBillPaid);
+		System.out.println("Latest Bill is " + ref2.isLatestBill);
+		System.out.println("Final Bill is " + ref2.isFinalBill);
+		System.out.println("Bill Amount is " + ref2.billAmount);
+		System.out.println("Tax Inclusive the Bill is " + ref2.taxInclusiveBill);
+		
+		Bill ref3 = new Bill(65237, 4, "15/10/2024", "30/10/2024", false, true, false, 499.90, true);
+		System.out.println("Bill Reference Id is " + ref3.billReferenceId);
+		System.out.println("Bill Sequence Number is " + ref3.billSequenceNo);
+		System.out.println("Bill Issue Date is " + ref3.billIssueDate);
+		System.out.println("Bill Due Date is " + ref3.billDueDate);
+		System.out.println("Bill is Paid " + ref3.isBillPaid);
+		System.out.println("Latest Bill is " + ref3.isLatestBill);
+		System.out.println("Final Bill is " + ref3.isFinalBill);
+		System.out.println("Bill Amount is " + ref3.billAmount);
+		System.out.println("Tax Inclusive the Bill is " + ref3.taxInclusiveBill);
+		
+		
 	
 		
 	}

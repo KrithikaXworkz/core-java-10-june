@@ -3,6 +3,7 @@ class DebitCardRunner{
     public static void main(String debit[]){
 	
 	    System.out.println("Main Started");
+		/*Default Constructor
 	    DebitCard card = new DebitCard();
 		card.cardId = 680909;
 		card.cardHolderName = "Shashi Kumar";
@@ -118,7 +119,64 @@ class DebitCardRunner{
 		System.out.println("Debit Card Holder Name is " + card8.cardHolderName);
 		System.out.println("Debit Card Number is " + card8.cardNo);
 		System.out.println("Expiry Date of Debit Card is " + card8.expDate);
-		System.out.println("Debit Card Verification Value is " + card8.cvv);
+		System.out.println("Debit Card Verification Value is " + card8.cvv);*/
+		
+		//Parameterized Constructor
+		DebitCard card = new DebitCard(435213, "Kruthika", 5137261764656893L, "02/04/2024", 567);
+		System.out.println("Debit Card Id is " + card.cardId);
+		System.out.println("Debit Card Holder Name is " + card.cardHolderName);
+		System.out.println("Debit Card Number is " + card.cardNo);
+		System.out.println("Expiry Date of Debit Card is " + card.expDate);
+		System.out.println("Debit Card Verification Value is " + card.cvv);
+		
+		DebitCard card1 = new DebitCard(523741, "Bhoomika", 4567231234567898L, "04/05/2022", 123);
+		System.out.println("Debit Card Id is " + card1.cardId);
+		System.out.println("Debit Card Holder Name is " + card1.cardHolderName);
+		System.out.println("Debit Card Number is " + card1.cardNo);
+		System.out.println("Expiry Date of Debit Card is " + card1.expDate);
+		System.out.println("Debit Card Verification Value is " + card1.cvv);
+		
+		DebitCard card2 = new DebitCard(472361, "Keerthi Kumar", 5655433456678876L, "09/10/2025", 632);
+		System.out.println("Debit Card Id is " + card2.cardId);
+		System.out.println("Debit Card Holder Name is " + card2.cardHolderName);
+		System.out.println("Debit Card Number is " + card2.cardNo);
+		System.out.println("Expiry Date of Debit Card is " + card2.expDate);
+		System.out.println("Debit Card Verification Value is " + card2.cvv);
+		
+		DebitCard card3 = new DebitCard(1574787, "Shashi Kumar", 5566779988112234L, "22/11/2026", 988);
+		System.out.println("Debit Card Id is " + card3.cardId);
+		System.out.println("Debit Card Holder Name is " + card3.cardHolderName);
+		System.out.println("Debit Card Number is " + card3.cardNo);
+		System.out.println("Expiry Date of Debit Card is " + card3.expDate);
+		System.out.println("Debit Card Verification Value is " + card3.cvv);
+		
+		DebitCard card4 = new DebitCard(571672, "Anitha", 6673829893098712L, "25/12/2023", 675);
+		System.out.println("Debit Card Id is " + card4.cardId);
+		System.out.println("Debit Card Holder Name is " + card4.cardHolderName);
+		System.out.println("Debit Card Number is " + card4.cardNo);
+		System.out.println("Expiry Date of Debit Card is " + card4.expDate);
+		System.out.println("Debit Card Verification Value is " + card4.cvv);
+		
+		DebitCard card5 = new DebitCard(34762, "Mithun", 7745321123454889L, "29/06/2024", 156);
+		System.out.println("Debit Card Id is " + card5.cardId);
+		System.out.println("Debit Card Holder Name is " + card5.cardHolderName);
+		System.out.println("Debit Card Number is " + card5.cardNo);
+		System.out.println("Expiry Date of Debit Card is " + card5.expDate);
+		System.out.println("Debit Card Verification Value is " + card5.cvv);
+		
+		DebitCard card6 = new DebitCard(4678896, "Vishnu", 8856743234568912L, "31/08/2028", 999);
+		System.out.println("Debit Card Id is " + card6.cardId);
+		System.out.println("Debit Card Holder Name is " + card6.cardHolderName);
+		System.out.println("Debit Card Number is " + card6.cardNo);
+		System.out.println("Expiry Date of Debit Card is " + card6.expDate);
+		System.out.println("Debit Card Verification Value is " + card6.cvv);
+		
+		DebitCard card7 = new DebitCard(76532, "Raj", 7843643093214532L, "27/02/2029", 776);
+		System.out.println("Debit Card Id is " + card7.cardId);
+		System.out.println("Debit Card Holder Name is " + card7.cardHolderName);
+		System.out.println("Debit Card Number is " + card7.cardNo);
+		System.out.println("Expiry Date of Debit Card is " + card7.expDate);
+		System.out.println("Debit Card Verification Value is " + card7.cvv);
 		System.out.println("Main Ended");
 		
 		
