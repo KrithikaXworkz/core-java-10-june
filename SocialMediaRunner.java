@@ -104,7 +104,7 @@ class SocialMediaRunner{
 		System.out.println("Email Id is " + ref.emailId);*/
 		
 		//Parameterized Constructor
-		SocialMedia ref = new SocialMedia(6352, "Snapchat", "Kruthika", "kruthi32@gmail.com");
+		/*SocialMedia ref = new SocialMedia(6352, "Snapchat", "Kruthika", "kruthi32@gmail.com");
 		System.out.println("Social Media Id is " + ref.socialMediaId);
 		System.out.println("Social Media Name is " + ref.socialMediaName);
 		System.out.println("Profile Name is " + ref.profileName);
@@ -150,7 +150,24 @@ class SocialMediaRunner{
 		System.out.println("Social Media Id is " + ref7.socialMediaId);
 		System.out.println("Social Media Name is " + ref7.socialMediaName);
 		System.out.println("Profile Name is " + ref7.profileName);
-		System.out.println("Email Id is " + ref7.emailId);
+		System.out.println("Email Id is " + ref7.emailId);*/
+		
+		SocialMedia ref = new SocialMedia(6352, "Snapchat", "Kruthika", "kruthi32@gmail.com");
+		ref.readDetails();
+		SocialMedia ref1 = new SocialMedia(263255, "Facebook", "Bhoomika", "bhoomi543@gmail.com");
+		ref1.readDetails();
+		SocialMedia ref2 = new SocialMedia(65274, "Instagram", "Anitha", "ani@gmail.com");
+		ref2.readDetails();
+		SocialMedia ref3 = new SocialMedia(53632, "Twitter", "Kanika", "kanika67@hmail.com");
+		ref3.readDetails();
+		SocialMedia ref4 = new SocialMedia(32723, "LinkedIn", "Manjula", "manju5632@gmail.com");
+		ref4.readDetails();
+		SocialMedia ref5 = new SocialMedia(53722, "Amazon", "Samruddi", "sammu@gmail.com");
+		ref5.readDetails();
+		SocialMedia ref6 = new SocialMedia(3627, "Flipkart", "Sandesh", "sandu65@gmail.com");
+		ref6.readDetails();
+		SocialMedia ref7 = new SocialMedia(3257, "Meesho", "Adhithya", "adhi568@gmail.com");
+		ref7.readDetails();
 		System.out.println("Main Ended");
 		
 		

@@ -122,7 +122,7 @@ class DebitCardRunner{
 		System.out.println("Debit Card Verification Value is " + card8.cvv);*/
 		
 		//Parameterized Constructor
-		DebitCard card = new DebitCard(435213, "Kruthika", 5137261764656893L, "02/04/2024", 567);
+		/*DebitCard card = new DebitCard(435213, "Kruthika", 5137261764656893L, "02/04/2024", 567);
 		System.out.println("Debit Card Id is " + card.cardId);
 		System.out.println("Debit Card Holder Name is " + card.cardHolderName);
 		System.out.println("Debit Card Number is " + card.cardNo);
@@ -176,7 +176,24 @@ class DebitCardRunner{
 		System.out.println("Debit Card Holder Name is " + card7.cardHolderName);
 		System.out.println("Debit Card Number is " + card7.cardNo);
 		System.out.println("Expiry Date of Debit Card is " + card7.expDate);
-		System.out.println("Debit Card Verification Value is " + card7.cvv);
+		System.out.println("Debit Card Verification Value is " + card7.cvv);*/
+		
+		DebitCard card = new DebitCard(680909, "Shashi Kumar", 5677890932145678L,  "12/08/2025", 567);
+		card.displayDetails();
+		DebitCard card1 = new DebitCard(523741, "Bhoomika", 4567231234567898L, "04/05/2022", 123);
+		card1.displayDetails();
+		DebitCard card2 = new DebitCard(472361, "Keerthi Kumar", 5655433456678876L, "09/10/2025", 632);
+		card2.displayDetails();
+		DebitCard card3 = new DebitCard(1574787, "Shashi Kumar", 5566779988112234L, "22/11/2026", 988);
+		card3.displayDetails();
+	    DebitCard card4 = new DebitCard(571672, "Anitha", 6673829893098712L, "25/12/2023", 675);
+		card4.displayDetails();
+		DebitCard card5 = new DebitCard(34762, "Mithun", 7745321123454889L, "29/06/2024", 156);
+		card5.displayDetails();
+		DebitCard card6 = new DebitCard(4678896, "Vishnu", 8856743234568912L, "31/08/2028", 999);
+		card6.displayDetails();
+		DebitCard card7 = new DebitCard(76532, "Raj", 7843643093214532L, "27/02/2029", 776);
+		card7.displayDetails();
 		System.out.println("Main Ended");
 		
 		

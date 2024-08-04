@@ -104,7 +104,7 @@ class CountryRunner{
 		System.out.println("Population in Germany is " + ref8.population);*/
 		
 		//Parameterized Constructor
-		Country ref = new Country(91, 28, "Narendra Modi", "1.45 billion");
+		/*Country ref = new Country(91, 28, "Narendra Modi", "1.45 billion");
 		System.out.println("Country Id of India is " + ref.countryId);
 		System.out.println("Number of States in India is " + ref.noOfStates);
 		System.out.println("Prime Minister in India is " + ref.primeMinister);
@@ -158,8 +158,28 @@ class CountryRunner{
 		System.out.println("Country Id of Germany is " + ref8.countryId);
 		System.out.println("Number of States in Germany is " + ref8.noOfStates);
 		System.out.println("Prime Minister in Germany is " + ref8.primeMinister);
-		System.out.println("Population in Germany is " + ref8.population);
+		System.out.println("Population in Germany is " + ref8.population);*/
 		
+		Country ref = new Country(91, 28, "Narendra Modi", "1.45 billion");
+		ref.getDetails();
+		Country ref1 = new Country(93, 34, "Mullah Mohammad Hassan Akhund", "43.3 million");
+	    ref1.getDetails();
+	    Country ref2 = new Country(61, 6, "Anthony Albanese", "26 million");
+		ref2.getDetails();
+		Country ref3 = new Country(377, 8, "Pierre Dartout", "36 thousand");
+		ref3.getDetails();
+		Country ref4 = new Country(41, 26, "Viola Amherd", "8 million");
+		ref4.getDetails();
+		Country ref5 = new Country(1, 50, "Joe Biden", "341 million");
+		ref5.getDetails();
+		Country ref6 = new Country(86, 23, "Li Qiang", "14 million");
+		ref6.getDetails();
+		Country ref7 = new Country(94, 25, "Dinesh Gunawardena", "21 million");
+		ref7.getDetails();
+		Country ref8 = new Country(49, 16, "Olaf Scholz", "83 million");
+		ref8.getDetails();
+		
+		System.out.println("Main Ended");
 	}		
 
 }
