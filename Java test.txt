@@ -130,29 +130,80 @@ public class Main {
 
 9.Explain Polymorphism with example?
 =>Polymorphism is an object and the ability of objects to take on many forms.
-Ex: public class Hospital{
-       @Override
-       System.out.println("Lets go to hospital");
+Ex: public class Engineering {
+    public void solveProblem(){
+        System.out.println("Solved complex problem by Engineer");
+    }
+
+public class MarineEngineering extends Engineering {
+    @Override
+    public void solveProblem() {
+        System.out.println("Solved complex problem by Marine Engineer");
+    }
 }
-       
+public class EngineeringRunner {
+    public static void main(String[] args) {
+        //Parent ref = new Child();
+        Engineering ref = new MarineEngineering();
+        ref.solveProblem();
+}
+}
 
 10.Explain Inheritance with example?
 =>Inheritance is a one of the object-oriented programming principles in order to parent class will occupy the sub class of child class
-Ex:public class Hospital{
-       
-}
-  public class jayadevaHospital extends Hospital{
+Ex:example:public class Hospital {
+    Patient patient;
+    public  boolean addPatient(Patient patient){
+        boolean isPatientAdded = false;
 
-}
-     
-  public class VictoriaHospital extends Hospital{
+        if(patient!=null){
+            if(patient.patientName!=null )
+                this.patient=patient;
+            isPatientAdded = true;
+        }
 
-}
+        return  isPatientAdded;
+    }
 
-public class HospitalRunner{
-public static void main(String[] args){
+    public void getPatient(){
+        System.out.println("Fetching Patient Info.........");
+        System.out.println("The Patient Name is " + this.patient.patientName);
+        System.out.println("The Patient Gender is " + this.patient.gender);
+        System.out.println("The Patient Blood Group is " + this.patient.bloodGroup);
+        System.out.println("The Patient Age is " + this.patient.age);
+        System.out.println("The Patient Id is " + this.patient.patientId);
+        System.out.println("The Patient Address is ");
+        this.patient.displayPatientAddress();
+    }
+    public boolean uppdatePatientAge(int newAge){
+        System.out.println("updating patient age....");
+        boolean isNewAge = false;
+        if(newAge>0){
+            this.patient.age = newAge;
+            isNewAge = true;
+        }
+        return isNewAge;
+    }
+    public boolean updatePatientName(String newName){
+        System.out.println("updating patient name...");
+        boolean isNewName = false;
+        if(newName!=null){
+            this.patient.patientName=newName;
+            isNewName = true;
+        }
+        return isNewName;
+    }
+  public boolean admissionRequired;
+              public boolean addPatient(Patient patient){
+                  boolean isAdded = false;
+                  System.out.println("child class addPatient started");
+                  if(admissionRequired == true)
+                      isAdded = super.addPatient(patient);
+                  else System.out.println("First pay the amount");
+                  System.out.println("child class addPatient ended");
+                  return isAdded;
+    }
 
-}
 
 
 
