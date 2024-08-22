@@ -1,0 +1,248 @@
+Java test
+1.Explain
+   1. public static void main(String args[]):
+*public-->access specifiers
+*static-->non-access specifiers
+*void-->return type
+*main-->name of the method
+*String args[]-->parameters
+   2. class and objects:
+*class-->class is a set of objects will be stored in the particular class name(template/blueprint).
+*Object-->Object is a instance of class. It has states and behaviours. states is a variables and behaviours is a method.
+   3. JVM, JRE, JDK:
+*JVM: Java Virtual Machine is a Component in which it provides a run-time environment in order to execute a Java Code/byte Code.
+*JRE: Java Run-Time Environment is a execute a java code. It includes set of libraries , bin, and development tools
+*JDK: Java Development Kit is a Component / It is a fully featured software development kit in which it help us to compile and execute the java code.
+
+2.Explain the Constructor and its types?
+=>*Constructor is a special type of method in which it is the same as class name and which does have any return type.
+  *Instance Methods is used for constructors.
+  *Advantage of constructor is  Multiple copies of data.
+  *It will help us to create new objects.
+Types of Constructors:
+1.Default Constructors:
+ ->Default Constructor is a inside paranthesis we did not pass any parameters or arguments.
+Ex:class Bottle{
+ 
+        String brandName;
+		double price;
+	
+    //Default Constructors	
+    public Bottle(){
+	 
+	    System.out.println("Bottle Object is Created");
+	
+	}
+    class BottleRunner{
+
+    public static void main(String tupperWare[]){
+	    
+		//object creation
+	    //default constructor
+		/*Bottle ref = new Bottle();
+		ref.brandName = "Milton";
+		ref.price = 120.00;
+		System.out.println("The Bottle Brand Name is " + ref.brandName);
+		System.out.println("The Bottle Price is " + ref.price);
+
+
+
+2.Parameterized Constructors:
+ ->Parameterized Constructor is includes a inside paranthesis we will using particular parameters or arguments
+Ex:class Bottle{
+ 
+        String brandName;
+		double price;
+    
+	//Parameterized Constructor
+	public Bottle(String brandName, double price){
+		this.brandName = brandName;
+		this.price = price;
+		
+	}
+	
+	
+}
+
+class BottleRunner{
+
+    public static void main(String tupperWare[]){
+	    
+		//object creation
+	    //default constructor
+		/*Bottle ref = new Bottle();
+		ref.brandName = "Milton";
+		ref.price = 120.00;
+		System.out.println("The Bottle Brand Name is " + ref.brandName);
+		System.out.println("The Bottle Price is " + ref.price);
+		
+		Bottle ref1 = new Bottle();
+		ref1.brandName = "super";
+		ref1.price = 140.89;
+		System.out.println("The Bottle Brand Name is " + ref1.brandName);
+		System.out.println("The Bottle Price is " + ref1.price);
+		
+}
+
+3.Difference between keyword and this[]?
+=>Keyword: Keyword is just a keyword, in which the keyword starts will lower case and it is a special one.
+  this[]:this keyword is a keyword in which it has change the one constructor to another constructor and it will write a first line of that method.
+
+4.Why main method is static and explain the method type?
+=>there is a static in main method because we does not create object and main keyword will looks for JVM. JVM is also there so we will use static in main method.
+Types of Methods:
+1.Static Methods
+2.Instance Methods
+1.Static Methods:
+->It is a block of code in which we will use the static keyword inside the class and outside the main method.
+2.Instance Methods:
+->It is a block of code in which we will not use a static keyword inside the class and outside the main method.
+
+6.Why we create reverse domain in package?
+=>Reverse domain is a naming convention used by programming languages, systems, or frameworks to group components, packages, types, or file names
+
+7.Write a program to find the length of the array to present in the given array?
+Input:[1,2,3,4,5,6,7,6]
+output:[7] length of the array is present in the given list.
+=> class Number{
+import java.util.*; 
+  
+public class Main { 
+    public static void main(String[] args) 
+    { 
+        int[] int_arr = { 1, 2, 3, 4, 5, 6, 7 }; 
+      
+        System.out.print("Integer Array: [ "); 
+        for (int c : int_arr) { 
+            System.out.print(c + " "); 
+            ii++; 
+        } 
+        System.out.println("]"); 
+        System.out.println("]\n"); 
+        System.out.println("Size of integer array = " + ii); 
+       
+    } 
+} 
+
+
+8.Can we use instance variables inside the static method?
+=>No, static methods can't directly access instance variables because static methods can be called even when no objects of the class have been instantiated. When a static method is called, there might not be any objects of its class in memory.
+
+9.Explain Polymorphism with example?
+=>Polymorphism is an object and the ability of objects to take on many forms.
+Ex: public class Hospital{
+       @Override
+       System.out.println("Lets go to hospital");
+}
+       
+
+10.Explain Inheritance with example?
+=>Inheritance is a one of the object-oriented programming principles in order to parent class will occupy the sub class of child class
+Ex:public class Hospital{
+       
+}
+  public class jayadevaHospital extends Hospital{
+
+}
+     
+  public class VictoriaHospital extends Hospital{
+
+}
+
+public class HospitalRunner{
+public static void main(String[] args){
+
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
